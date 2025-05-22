@@ -1,0 +1,9 @@
+<CriticalDocument id="doc123">
+    <SenderID>MINISTRY1_SEG01</SenderID>
+    <ReceiverID>MINISTRY2_SEG01</ReceiverID>
+    <TimestampForSignature>2025-01-01T12:00:00Z</TimestampForSignature>
+    <Payload>
+        <SensitiveData>Lunch party at Saturday</SensitiveData>
+        <Instructions>Deliver by 0300.</Instructions>
+    </Payload>
+</CriticalDocument>
