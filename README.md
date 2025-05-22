@@ -152,7 +152,7 @@ pip install flask cryptography requests
 ---
 
 ## 👨‍💼 Authors
-- Developed by: [Your Name Here]
+- Developed by: Team Fort_r007
 - For: Public Key Infrastructure Hackathon 2025
 
 ---
