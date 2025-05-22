@@ -91,11 +91,20 @@ openssl x509 -req -in seg_sender.csr -CA rootCA.crt -CAkey rootCA.key -CAcreates
 ```bash
 python3 seg_receiver.py
 ```
-Expected log:
+Expected Output:
 ```
+bfd@bfd-shield:~/Desktop/PKI/Secure Document Exchange System/seg_reciever$ python3 seg_receiver.py
+ * Serving Flask app 'seg_receiver'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://192.168.37.210:8443
+Press CTRL+C to quit
 [SUCCESS] Document integrity verified.
 Received Document:
-<CriticalDocument>...</CriticalDocument>
+<CriticalDocument id="doc123">
+
 ```
 
 ### 2. Send Document from SEG-Sender
